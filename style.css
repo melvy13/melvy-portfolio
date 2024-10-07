@@ -15,3 +15,45 @@ p {
     color: hsl(0, 0%, 50%)
 }
 
+a, button {
+    transition: all 300ms ease;
+}
+
+/* Desktop Nav */
+
+nav, .nav-links {
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+}
+
+.nav-links {
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+a {
+    color: hsl(0, 0%, 0%);
+    text-decoration: none;
+    text-decoration-color: hsl(0, 0%, 100%);
+}
+
+a:hover {
+    color: hsl(0, 0%, 50%);
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: hsl(0, 0%, 70%);
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.logo:hover {
+    cursor: default;
+}

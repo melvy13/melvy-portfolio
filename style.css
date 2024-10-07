@@ -246,6 +246,47 @@ section {
     border: hsl(0, 0%, 100%) 0.1rem solid;
 }
 
+/* About me section */
+
+#about {
+    position: relative;
+}
+
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-containers, .about-details-container {
+    display: flex;
+}
+
+.about-pic {
+    border-radius: 2rem;
+}
+
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: hsl(0, 0%, 100%);
+    border-radius: 2rem;
+    border: hsl(0, 0%, 21%) 0.1rem solid;
+    border-color: hsl(0, 0%, 64%);
+    text-align: center;
+}
+
 /* Media Queries */
 @media screen and (max-width: 1200px) {
     #desktop-nav {

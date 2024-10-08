@@ -340,7 +340,28 @@ article .icon {
 /* Projects */
 
 #projects {
-    
+    position: relative;
+}
+
+.color-container {
+    border-color: hsl(0, 0%, 64%);
+    background: hsl(0, 0%, 98%);
+}
+
+.project-img {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+}
+
+.project-title {
+    margin: 1rem;
+    color: black;
+}
+
+.project-btn {
+    color: black;
+    border-color: hsl(0, 0%, 64%);
 }
 
 /* Media Queries */

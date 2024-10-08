@@ -364,6 +364,42 @@ article .icon {
     border-color: hsl(0, 0%, 64%);
 }
 
+/* Contact */
+
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: hsl(0, 0%, 21%) 0.1rem solid;
+    border-color: hsl(0, 0%, 64%);
+    background: hsl(0, 0%, 98%);
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact-info-container p {
+    font-size: larger;
+}
+
+.contact-icon {
+    cursor: default;
+}
+
 /* Media Queries */
 @media screen and (max-width: 1200px) {
     #desktop-nav {
